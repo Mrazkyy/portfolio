@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Pavel Mrázek</title>
+</head>
+<body class="m-auto sirka okno d-flex flex-column justify-content-between" style="background-color: rgb(8, 36, 78);">
+
+    <header class=" d-flex justify-content-between "  >
+        
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Menu</a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Domů</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Kontakt</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="projekty.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projekty
+                    </a>
+                    <ul class="dropdown-menu" style="background: transparent;">
+                      <li><a class="dropdown-item text-white border-0 hover-primary" href="projekty.html">Všechny projekty</a></li>
+                      <li><a class="dropdown-item text-white hover-primary" href="#">Projekt 1</a></li>
+                      <li><a class="dropdown-item text-white hover-primary" href="#">Projekt2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+        <div class="align-self-center">
+            <button class="dropdown dropdown-toggle border-0 rounded-pill m-2"  data-bs-toggle="dropdown">CZ</button>
+            <div class="dropdown-menu" style="background-color: rgb(24, 73, 146) ;">
+                <a href="#" class="dropdown-item text-white hover-primary">EN</a>
+                <a href="#" class="dropdown-item text-white hover-primary">DE</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="  clearfix py-2 m-0" id="about" >
+        <div class=" box-shadow rounded-5 p-4" style="background-color: rgba(0, 0, 0, 0.315); max-height: 80rem;" id="text" >
+            <img class="img-fluid float-end p-1 rounded-circle" style="width: 18rem; height: 18rem; margin-right: 4rem; margin-top: 4rem; margin-left: 2rem;" src="obrazky/javascript-js.256x256.png" alt="">
+            <h1 class="text-white display-2"  style="margin-left: 4rem;">Pavel Mrázek</h1>
+            <h3 class=" podNadpis" style="margin-left: 4rem;">FrontEnd Developer</h3>
+            <p class="fw-medium text-white" style="margin-left: 4rem; margin-right: 3rem;  font-family: Arial, Helvetica, sans-serif; font-size: 1.2rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et perferendis temporibus tenetur consectetur est veritatis suscipit a iste ipsam, aspernatur expedita itaque dolor ex esse tempore sapiente? Quisquam, aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro cupiditate impedit iste similique vero voluptate quo perspiciatis tempore quod sed illo quaerat ratione libero, corrupti pariatur praesentium esse et. Aspernatur? <br>
+                <div class="" style="margin-left: 4rem; margin-top: 2rem;">
+                   <a href=""><button class=" tlacitko rounded-pill btn btn-primary my-2">Životopis</button></a>  
+                </div>  
+            </p> 
+           
+             
+            
+            <div class="d-flex justify-content-center ">
+                <figure class="figure " >
+                    <img class="figure-img img-fluid mx-3" style="width: 2rem; height: 2rem;" src="obrazky/css3.226x256.png" alt="">
+                </figure>
+                <figure class="figure" >
+                    <img class="figure-img img-fluid mx-3" style="width: 2rem; height: 2rem;" src="obrazky/html-5.224x256.png" alt="">
+                </figure>
+                <figure class="figure">
+                    <img class="figure-img img-fluid mx-3" style="width: 2rem; height: 2rem;" src="obrazky/javascript-js.256x256.png" alt="">
+                </figure>
+                <figure class="figure" >
+                    <img class="figure-img img-fluid mx-3" style="width: 2rem; height: 2rem;"  src="obrazky/jquery-plain-wordmark.241x256.png" alt="">
+                </figure>   
+            </div>
+            
+        </div>  
+    </section>
+
+    
+
+    <section>
+       
+    </section>
+
+    <footer class="position-relative position-bottom sirka" >
+        <div class=" ">
+            <p class="text-white text-center m-0 py-3">&copy; 2024 Pavel Mrázek</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+
+</body>
+</html>

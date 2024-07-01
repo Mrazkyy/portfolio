@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Pavel Mrázek</title>
+</head>
+<body class="m-auto sirka okno d-flex flex-column justify-content-between" style="background-color: rgb(8, 36, 78);" >
+
+    <header class=" d-flex justify-content-between "  >
+        
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Navbar</a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Domů</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Kontakt</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="projekty.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projekty
+                    </a>
+                    <ul class="dropdown-menu" style="background: transparent;">
+                      <li><a class="dropdown-item text-white border-0 hover-primary" href="projekty.html">Všechny projekty</a></li>
+                      <li><a class="dropdown-item text-white hover-primary" href="#">Projekt 1</a></li>
+                      <li><a class="dropdown-item text-white hover-primary" href="#">Projekt2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+        <div class="align-self-center">
+            <button class="dropdown dropdown-toggle border-0 rounded-pill m-2"  data-bs-toggle="dropdown">CZ</button>
+            <div class="dropdown-menu" style="background-color: rgb(24, 73, 146) ;">
+                <a href="#" class="dropdown-item text-white hover-primary">EN</a>
+                <a href="#" class="dropdown-item text-white hover-primary">DE</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="projects d-flex flex-column align-items-center flex-md-row flex-md-wrap justify-content-md-around  " >
+
+
+
+        <div class="card text-center my-2 bg-transparent border-0 box-shadow rounded-4" style="width: 18rem;" >
+            <img src="obrazky/jquery-plain-wordmark.241x256.png" class="card-img-top img-fluid"  alt="..." style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-white">Projekt 1</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Otevřít</a>
+            </div>
+          </div>
+
+          <div class="card text-center my-2 bg-transparent border-0 box-shadow rounded-4" style="width: 18rem;" >
+            <img src="obrazky/css3.226x256.png" class="card-img-top img-fluid " style="height: 20rem;"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">Projekt 2</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Otevřít</a>
+            </div>
+          </div>
+
+          <div class="card text-center my-2 bg-transparent border-0 box-shadow rounded-4" style="width: 18rem;" >
+            <img src="obrazky/html-5.224x256.png" class="card-img-top img-fluid"  alt="..." style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-white">Projekt 3</h5>
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Otevřít</a>
+            </div>
+          </div>
+       
+    </section>
+
+    <footer class="position-relative position-bottom sirka" >
+        <div class=" ">
+            <p class="text-white text-center m-0 py-3">&copy; 2024 Pavel Mrázek</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
